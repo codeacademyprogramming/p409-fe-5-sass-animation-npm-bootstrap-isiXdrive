@@ -1,0 +1,71 @@
+$primary:#2c3e50 ;
+$secondary:#1abc9c ;
+$white:#fff;
+
+header{
+    position: sticky !important;
+    top: 0;
+    position: relative;
+    z-index: 10;
+    
+}
+
+.logo-name{
+    font-size: 40px !important;
+}
+
+.main-header{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.bg-primary{
+    background-color: $primary;
+}
+
+.bg-secondary{
+    background-color: $secondary;
+}
+
+.divider{
+    margin-top: -30px;
+}
+
+.divider-linear {
+    width: 120px;
+    height: 5px;
+    border-radius: 10px;
+}
+
+.fa-star{
+    font-size: 3rem;
+
+}
+
+.masthead-avatar{
+    width: 17rem;
+}
+
+#main-section{
+    margin-top: -70px;
+    height: 100vh;
+    background-color: #1abc9c;
+}
+
+.masthead-subheading{
+    font-size: 1.5rem;
+}
+
+.wow{
+    font-size: 4rem;
+    line-height: 3rem;
+}
+
+.wow-h1{
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+.wow-h4{
+    font-size: 3rem
+}

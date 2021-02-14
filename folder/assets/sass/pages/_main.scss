@@ -1,0 +1,127 @@
+.paragraph{
+    font-size: 20px;
+}
+
+.btn{
+    background-color: transparent !important;
+    padding: 1rem 1.75rem !important;
+    cursor: pointer;
+    font-size: 20px !important;
+    transition: .3s !important;
+}
+
+.btn:hover{
+    background-color: aliceblue !important;
+    color: black !important;
+}
+
+.form{
+    font-size: 1rem !important;
+    border: none !important;
+    border-radius: 0;
+    background: none;
+    box-shadow: none;
+    width: 100%;
+    height: calc(1.5em + 1rem);
+    padding: 0.375rem 0.75rem;
+    text-transform: capitalize !important;
+    outline: none;
+}
+
+textarea.form{
+    height: auto;
+    resize: none;
+}
+
+.send-button{
+    background-color: $secondary !important;
+    transition: .3s;
+    color: white !important;
+    border-radius: 10px;
+    text-transform: capitalize !important;
+}
+
+.send-button:hover{
+    background-color: #12846e !important;
+    color: white !important;
+}
+
+.footer{
+    padding-top: 5rem;
+}
+
+.wow-h5{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.custom-font-family{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.icons{
+    margin-top: 30px;
+}
+
+.icons i{
+    padding: 10px;
+    margin-left: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white !important;
+    transition: .3s;
+}
+
+.icons i:hover{
+    background: white !important;
+    color: black !important;
+    cursor: pointer;
+}
+
+.p-custom{
+    margin-top: 35px;
+}
+
+.end-footer{
+    background: #1A252F;
+}
+
+.s-boot{
+    color: $secondary;
+    transition: .3s;
+}
+
+.s-boot:hover{
+    color: #12846e;
+    text-decoration: none;
+}
+
+.card-flip{
+    position: relative;
+}
+
+.card-section{
+    position: absolute;
+    width: 346.15px;
+    height: 100%;
+    background: #12846e !important;
+    z-index: 1;
+    top: 0;
+    left: 15px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: .3s;
+}
+
+.card-section i{
+    font-size: 70px;
+}
+
+.card-flip:hover{
+    .card-section{
+        opacity: .9;
+        cursor: pointer;
+    }
+}

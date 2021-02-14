@@ -1,0 +1,9 @@
+@mixin colors {
+    color: white !important;
+    font-weight: 700 !important;
+    transition: .3s;
+
+    &:hover{
+        color: $secondary !important;
+    }
+}

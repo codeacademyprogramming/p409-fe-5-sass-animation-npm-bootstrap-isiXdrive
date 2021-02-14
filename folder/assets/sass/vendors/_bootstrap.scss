@@ -1,0 +1,16 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.navbar-light{
+
+    .navbar-brand{
+        color: white !important;
+        font-weight: 700;
+    }
+
+    .navbar-nav{
+        .nav-link{
+            @include colors();
+        }
+    }
+}
+
